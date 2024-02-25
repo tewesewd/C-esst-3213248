@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int rechne(int op1, int op2)
+int rechne(int op1, int op2);
 int main()
 {
     int a, b, erg;

@@ -3,9 +3,24 @@
 
 /*
 Die Funktion aufab muss ausprogrammiert werden.
-Wenn Übergabewert kleiner als 5, soll Rückgabewert um den Wert 1 erhöht werden.
-Andernfalls soll der Rückgabewert um den Wert 1 reduziert werden.
+Wenn ï¿½bergabewert kleiner als 5, soll Rï¿½ckgabewert um den Wert 1 erhï¿½ht werden.
+Andernfalls soll der Rï¿½ckgabewert um den Wert 1 reduziert werden.
 */
+
+int aufab(int i)
+{
+    if (i >= 5)
+    {
+        i = i - 1;
+    }
+    else if (i < 5)
+    {
+        i = i + 1;
+    }
+    
+    return(i);
+}
+
 int main()
 {
     printf("Uebergabewert an die Funktion ist %d.\tRueckgabewert der Funktion ist %d.\n",2,aufab(2));
